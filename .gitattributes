@@ -61,3 +61,10 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+# Dil istatistiği: hazır tema/kütüphane dosyaları ve Razor view'lar sayılmasın
+**/wwwroot/** linguist-vendored
+**/Content/** linguist-vendored
+**/Scripts/** linguist-vendored
+**/Templates/** linguist-vendored
+**/Theme/** linguist-vendored
+*.cshtml linguist-detectable=false
